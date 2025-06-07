@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "jdpainting",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -9,6 +9,22 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^5.9.1"
+    "@astrojs/cloudflare": "^12.5.4",
+    "@astrojs/react": "^4.3.0",
+    "@astrojs/tailwind": "^6.0.2",
+    "@sanity/astro": "^3.2.6",
+    "@sanity/client": "^6.29.1",
+    "@types/react": "^19.1.6",
+    "@types/react-dom": "^19.1.6",
+    "@types/react-is": "^19.0.0",
+    "astro": "^5.9.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-is": "^19.1.0",
+    "sanity": "^3.91.0",
+    "styled-components": "^6.1.18"
+  },
+  "devDependencies": {
+    "vite": "5.1.5"
   }
 }
