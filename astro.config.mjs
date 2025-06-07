@@ -16,6 +16,11 @@ export default defineConfig({
         process.env.PUBLIC_SANITY_DATASET
       ),
     },
+    resolve: {
+      alias: import.meta.env.PROD && {
+        "react-dom/server": "react-dom/server.edge",
+      },
+    },
   },
   integrations: [tailwind(), react()],
 });
