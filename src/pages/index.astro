@@ -1,5 +1,7 @@
 ---
 import {Navbar} from "../components/Nav";
+import {Hero} from "../components/Hero";
+import {FAQ} from "@/components/FAQ";
 import {Footer} from "../components/Footer";
 import "../assets/styles/globle.css";
 ---
@@ -13,7 +15,9 @@ import "../assets/styles/globle.css";
     <title>Astro</title>
   </head>
   <body>
-    <Navbar />
+    <Navbar client:load />
+    <Hero />
+    <FAQ client:load />
     <Footer />
   </body>
 </html>
