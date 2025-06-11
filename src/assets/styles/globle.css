@@ -90,6 +90,13 @@
     --input: 240 5.9% 90%;
     --ring: 142.1 76.2% 36.3%;
     --radius: 0.5rem;
+    --dark: #0d0d0d;
+    --black: #000000;
+    --white: #ffffff;
+    --grey: #3a3a3a;
+    --gold: #c9aa3a;
+    --gold-mid: #af9230;
+    --gold-light: #e4d6a6;
   }
 
   .dark {
