@@ -15,7 +15,14 @@ import "../assets/styles/globle.css";
     <title>Astro</title>
   </head>
   <body>
-    <Navbar client:only />
+    <Navbar client:only="react">
+      <div
+        slot="fallback"
+        class="animate-pulse text-center flex justify-center items-center text-slate-800 dark:bg-slate-800 min-h-[56px] w-full transition-all"
+      >
+        Loading
+      </div>
+    </Navbar>
     <Hero />
     <FAQ client:load />
     <Footer />

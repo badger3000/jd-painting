@@ -15,7 +15,6 @@ import {
 import {buttonVariants} from "./ui/button";
 import {Menu} from "lucide-react";
 import {ModeToggle} from "./mode-toggle";
-import {LogoIcon} from "./Icons";
 
 interface RouteProps {
   href: string;
@@ -60,10 +59,14 @@ export const Navbar = () => {
             <a
               rel="noreferrer noopener"
               href="/"
-              className="ml-2 font-bold text-xl flex"
+              className="ml-2 font-bold text-xl flex items-center"
             >
-              <LogoIcon />
-              JD Painting
+              <img
+                src="/logo-transparent.png"
+                alt="logo"
+                className="w-12 h-12 mr-2"
+              />
+              John David
             </a>
           </NavigationMenuItem>
 
