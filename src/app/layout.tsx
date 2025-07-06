@@ -17,7 +17,9 @@ export default function RootLayout({
       <body>
         <div className="relative w-full">
           <Navigation />
-          <main className="relative w-full flex-row ">{children}</main>
+          <main className="relative w-full flex-row px-4 md:px-0">
+            {children}
+          </main>
         </div>
       </body>
     </html>

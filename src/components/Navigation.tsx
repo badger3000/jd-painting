@@ -50,7 +50,9 @@ export default function Navigation() {
         <NavbarLogo />
         <NavItems items={navItems} />
         <div className="flex items-center gap-4">
-          <NavbarButton variant="primary">Book a call</NavbarButton>
+          <NavbarButton href="#cal" variant="primary">
+            Book a call
+          </NavbarButton>
         </div>
       </NavBody>
 
@@ -83,6 +85,7 @@ export default function Navigation() {
               onClick={() => setIsMobileMenuOpen(false)}
               variant="primary"
               className="w-full"
+              href="#cal"
             >
               Book a call
             </NavbarButton>
